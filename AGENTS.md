@@ -1,10 +1,10 @@
 # Agent Briefing: agent-vps-security-hardening
 
 ## 1. Repository Overview & Purpose
-- **Repository Name**: `agent-vps-security-hardening`
+- **Repository**: `webdev0814/agent-vps-security-hardening`
 - **Visibility**: `Public`
 - **Default Branch**: `main`
-- **Last Updated / Pushed**: 2026-05-15
+- **Last Updated / Pushed**: 2026-09-04
 - **Description**: VPS security hardening protocols tailored for independent AI agent hosts and deployments.
 - **Context from README**: A harness-agnostic security hardening procedure for running AI agents, automation harnesses, chatbots, browser workers, and orchestration services on public VPS hosts. It is intentionally not tied to OpenClaw, Hermes, LangChain, AutoGen, CrewAI, custom Python bots, Node services, or any specific age...
 - **Topics/Tags**: devops, hardening, security, vps-security
@@ -14,7 +14,7 @@
 ## 2. Tech Stack & Architecture
 - **Primary Language / Ecosystem**: Shell, Shell / Bash
 - **Key Directories**: `docs/`, `scripts/`
-- **Notable Top-Level Files**: `LICENSE`, `README.md`
+- **Notable Top-Level Files**: `AGENTS.md`, `CLAUDE.md`, `GEMINI.md`, `LICENSE`, `README.md`
 
 ---
 
@@ -38,6 +38,9 @@
 
 ## 4. Recent Commit Activity (Where We Left Off)
 The most recent commits show the latest development trajectory:
+- `[2decb66]` (2026-09-04) docs: add comprehensive agent briefing (AGENTS.md, GEMINI.md, CLAUDE.md)
+- `[78cf91f]` (2026-09-04) docs: add comprehensive agent briefing (AGENTS.md, GEMINI.md, CLAUDE.md)
+- `[0bf32af]` (2026-09-04) docs: add comprehensive agent briefing (AGENTS.md, GEMINI.md, CLAUDE.md)
 - `[f5739c3]` (2026-05-15) Add harness-agnostic VPS hardening procedure
 
 ---
