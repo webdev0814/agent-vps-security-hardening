@@ -4,7 +4,7 @@
 - **Repository**: `webdev0814/agent-vps-security-hardening`
 - **Visibility**: `Public`
 - **Default Branch**: `main`
-- **Last Updated / Pushed**: 2026-09-04
+- **Last Updated / Pushed**: 2026-09-08
 - **Description**: VPS security hardening protocols tailored for independent AI agent hosts and deployments.
 - **Context from README**: A harness-agnostic security hardening procedure for running AI agents, automation harnesses, chatbots, browser workers, and orchestration services on public VPS hosts. It is intentionally not tied to OpenClaw, Hermes, LangChain, AutoGen, CrewAI, custom Python bots, Node services, or any specific age...
 - **Topics/Tags**: devops, hardening, security, vps-security
@@ -38,6 +38,9 @@
 
 ## 4. Recent Commit Activity (Where We Left Off)
 The most recent commits show the latest development trajectory:
+- `[2a98fd0]` (2026-09-08) docs: update agent briefing (AGENTS.md, GEMINI.md, CLAUDE.md)
+- `[d4145b7]` (2026-09-08) docs: update agent briefing (AGENTS.md, GEMINI.md, CLAUDE.md)
+- `[4298581]` (2026-09-08) docs: update agent briefing (AGENTS.md, GEMINI.md, CLAUDE.md)
 - `[e6d1e60]` (2026-09-04) docs: add comprehensive agent briefing (AGENTS.md, GEMINI.md, CLAUDE.md)
 - `[509265a]` (2026-09-04) docs: add comprehensive agent briefing (AGENTS.md, GEMINI.md, CLAUDE.md)
 - `[6ecc942]` (2026-09-04) docs: add comprehensive agent briefing (AGENTS.md, GEMINI.md, CLAUDE.md)
