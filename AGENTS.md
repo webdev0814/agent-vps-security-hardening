@@ -38,6 +38,9 @@
 
 ## 4. Recent Commit Activity (Where We Left Off)
 The most recent commits show the latest development trajectory:
+- `[f37f532]` (2026-09-08) docs: update agent briefing (AGENTS.md, GEMINI.md, CLAUDE.md)
+- `[cca5821]` (2026-09-08) docs: update agent briefing (AGENTS.md, GEMINI.md, CLAUDE.md)
+- `[7f66955]` (2026-09-08) docs: update agent briefing (AGENTS.md, GEMINI.md, CLAUDE.md)
 - `[2700bba]` (2026-09-08) docs: update agent briefing (AGENTS.md, GEMINI.md, CLAUDE.md)
 - `[e828a96]` (2026-09-08) docs: update agent briefing (AGENTS.md, GEMINI.md, CLAUDE.md)
 - `[ec1a2a4]` (2026-09-08) docs: update agent briefing (AGENTS.md, GEMINI.md, CLAUDE.md)
@@ -45,9 +48,6 @@ The most recent commits show the latest development trajectory:
 - `[eb1c0b0]` (2026-09-08) docs: update agent briefing (AGENTS.md, GEMINI.md, CLAUDE.md)
 - `[1e0abae]` (2026-09-08) docs: update agent briefing (AGENTS.md, GEMINI.md, CLAUDE.md)
 - `[1b463d2]` (2026-09-08) docs: update agent briefing (AGENTS.md, GEMINI.md, CLAUDE.md)
-- `[1501f30]` (2026-09-08) docs: update agent briefing (AGENTS.md, GEMINI.md, CLAUDE.md)
-- `[3d2341e]` (2026-09-08) docs: update agent briefing (AGENTS.md, GEMINI.md, CLAUDE.md)
-- `[be4f21f]` (2026-09-08) docs: update agent briefing (AGENTS.md, GEMINI.md, CLAUDE.md)
 
 ---
 
@@ -61,8 +61,11 @@ The most recent commits show the latest development trajectory:
 
 ---
 
-## 6. Agent Working Guidelines & Gotchas
-- **Cross-Platform Compatibility**: Code may run across Windows, macOS, or Linux agent environments. Ensure path manipulations use OS-agnostic methods (e.g. `pathlib.Path` or `path.join`).
+## 6. Multi-Computer Handoff & Git Sync Protocol
+- **On Session Start**: Always run `git pull` when opening this repository on any computer to synchronize the latest changes.
+- **On Task Completion**: Before ending any agent session, the agent **MUST**:
+  1. Update Section 5 (Current State & Next Steps) in this `AGENTS.md` file.
+  2. Stage all modifications (`git add .`).
+  3. Commit with a concise conventional message (`git commit -m "feat/fix: ..."`).
+  4. Push directly to GitHub (`git push`).
 - **Secret Hygiene**: NEVER commit plain-text API keys, tokens, or credentials into repository files.
-- **Git Commit Etiquette**: Use concise, conventional commit messages (e.g., `feat:`, `fix:`, `docs:`, `refactor:`).
-- **Tooling Compatibility**: This briefing is kept aligned for Antigravity (`GEMINI.md`), Claude Code / Codex (`CLAUDE.md`), and general autonomous agents (`AGENTS.md`).
