@@ -4,7 +4,7 @@
 - **Repository**: `webdev0814/agent-vps-security-hardening`
 - **Visibility**: `Public`
 - **Default Branch**: `main`
-- **Last Updated / Pushed**: 2026-09-08
+- **Last Updated / Pushed**: 2026-09-09
 - **Description**: VPS security hardening protocols tailored for independent AI agent hosts and deployments.
 - **Context from README**: A harness-agnostic security hardening procedure for running AI agents, automation harnesses, chatbots, browser workers, and orchestration services on public VPS hosts. It is intentionally not tied to OpenClaw, Hermes, LangChain, AutoGen, CrewAI, custom Python bots, Node services, or any specific age...
 - **Topics/Tags**: devops, hardening, security, vps-security
@@ -38,6 +38,9 @@
 
 ## 4. Recent Commit Activity (Where We Left Off)
 The most recent commits show the latest development trajectory:
+- `[cc9de34]` (2026-09-09) docs: update agent briefing with multi-computer handoff protocol
+- `[256a085]` (2026-09-09) docs: update agent briefing with multi-computer handoff protocol
+- `[0c21e09]` (2026-09-09) docs: update agent briefing with multi-computer handoff protocol
 - `[7fda9a9]` (2026-09-08) docs: update agent briefing with multi-computer handoff protocol
 - `[e778432]` (2026-09-08) docs: update agent briefing with multi-computer handoff protocol
 - `[00f3fd4]` (2026-09-08) docs: update agent briefing with multi-computer handoff protocol
@@ -45,9 +48,6 @@ The most recent commits show the latest development trajectory:
 - `[95f56c5]` (2026-09-08) docs: update agent briefing with multi-computer handoff protocol
 - `[5911b07]` (2026-09-08) docs: update agent briefing with multi-computer handoff protocol
 - `[29751d2]` (2026-09-08) docs: update agent briefing with multi-computer handoff protocol
-- `[9d53e49]` (2026-09-08) docs: update agent briefing with multi-computer handoff protocol
-- `[e3eb359]` (2026-09-08) docs: update agent briefing with multi-computer handoff protocol
-- `[0e98c7f]` (2026-09-08) docs: update agent briefing with multi-computer handoff protocol
 
 ---
 
