@@ -38,6 +38,9 @@
 
 ## 4. Recent Commit Activity (Where We Left Off)
 The most recent commits show the latest development trajectory:
+- `[55e6191]` (2026-09-09) docs: update agent briefing with multi-computer handoff protocol
+- `[66b5387]` (2026-09-09) docs: update agent briefing with multi-computer handoff protocol
+- `[467634d]` (2026-09-09) docs: update agent briefing with multi-computer handoff protocol
 - `[2a0f503]` (2026-09-09) docs: update agent briefing with multi-computer handoff protocol
 - `[2ac1c65]` (2026-09-09) docs: update agent briefing with multi-computer handoff protocol
 - `[e4bea3a]` (2026-09-09) docs: update agent briefing with multi-computer handoff protocol
@@ -45,9 +48,6 @@ The most recent commits show the latest development trajectory:
 - `[be60d29]` (2026-09-09) docs: update agent briefing with multi-computer handoff protocol
 - `[cf767a9]` (2026-09-09) docs: update agent briefing with multi-computer handoff protocol
 - `[9267d62]` (2026-09-09) docs: update agent briefing with multi-computer handoff protocol
-- `[0ff077a]` (2026-09-09) docs: update agent briefing with multi-computer handoff protocol
-- `[3a2da63]` (2026-09-09) docs: update agent briefing with multi-computer handoff protocol
-- `[4f060fd]` (2026-09-09) docs: update agent briefing with multi-computer handoff protocol
 
 ---
 
